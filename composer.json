@@ -1,0 +1,34 @@
+{
+    "name": "orh/laravel-tinify",
+    "description": "Tinify API client for Laravel",
+    "keywords": [
+        "php",
+        "laravel",
+        "tinify",
+        "laravel-tinify"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.0",
+        "tinify/tinify": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Orh\\Laravel\\Tinify\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Orh\\Laravel\\Tinify\\ServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "orh",
+            "email": "512574561@qq.com"
+        }
+    ]
+}
